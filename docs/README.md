@@ -32,7 +32,7 @@ These are divided into three categories;
 
 - Shared memory:
 
-  []()
+  ![01](./01.png)
 
   OpenMP comes under the shared memory concept.
   In this, different CPU’s (processors) will have access to the same memory location.
@@ -40,7 +40,7 @@ These are divided into three categories;
 
 - Distributed memory:
 
-  []()
+  ![02](./02.png)
 
   Here, each CPU(processor) will have its own memory location to access and use.
   In order to make them communicate, all independent systems will be connected together using
@@ -64,7 +64,7 @@ GCC provides support for OpenMP starting from its version 4.2.0.
 So if the system has GCC compiler with the version higher than 4.2.0, then it must have
 OpenMP features configured with it.
 
-[]()
+![03](./03.png)
 
 If the system doesn’t have the GCC compiler, we can use the following command:
 
@@ -83,7 +83,7 @@ the command:
 echo |cpp -fopenmp -dM |grep -i open
 ```
 
-[]()
+![04](./04.png)
 
 If OpenMP is not featured in the compiler, we can configure it use using the command:
 
@@ -134,7 +134,7 @@ int main (int argc, char* argv[])
 
 Output:
 
-[]()
+![05](./05.png)
 
 This program will print a message which will be getting executed by various threads.
 
@@ -199,7 +199,7 @@ In this article, we will learn how to create a parallel Hello World Program usin
 
    Diagram of parallel region
 
-   []()
+   ![06](./06.png)
 
    As per the above figure, Once the compiler encounters the parallel regions code,
    the master thread(thread which has thread id 0) will fork into the specified number
@@ -237,10 +237,11 @@ Output:
 
 When run for 1st time:
 
-[]()
+![07](./07.png)
 
 When run for multiple time:
 
 Order of execution of threads changes every time.
 
-[]()
+![08](./08.png)
+
