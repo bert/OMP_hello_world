@@ -222,3 +222,25 @@ In this article, we will learn how to create a parallel Hello World Program usin
    ```
    ./hello
    ```
+
+The directory src contains the complete program with the output of the above approach:
+
+Program: Since we specified the number of threads to be executed as 5, 5 threads will
+execute the same print statement at the same point of time.
+Here we can’t assure the order of execution of threads, i.e Order of statement
+execution in the parallel region won’t be the same for all executions.
+In the below picture, while executing the program for first-time thread 1 gets completed
+first whereas, in the second run, thread 0 completed first.
+omp_get_thread_num() will return the thread number associated with the thread.
+
+Output:
+
+When run for 1st time:
+
+[]()
+
+When run for multiple time:
+
+Order of execution of threads changes every time.
+
+[]()
