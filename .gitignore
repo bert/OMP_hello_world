@@ -1,52 +1,53 @@
 # Prerequisites
-*.d
+src/*.d
 
 # Object files
-*.o
-*.ko
-*.obj
-*.elf
+src/*.o
+src/*.ko
+src/*.obj
+src/*.elf
 
 # Linker output
-*.ilk
-*.map
-*.exp
+src/*.ilk
+src/*.map
+src/*.exp
 
 # Precompiled Headers
-*.gch
-*.pch
+src/*.gch
+src/*.pch
 
 # Libraries
-*.lib
-*.a
-*.la
-*.lo
+src/*.lib
+src/*.a
+src/*.la
+src/*.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+src/*.dll
+src/*.so
+src/*.so.*
+src/*.dylib
 
 # Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+src/*.exe
+src/*.out
+src/*.app
+src/*.i*86
+src/*.x86_64
+src/*.hex
+src/hello
 
 # Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+src/*.dSYM/
+src/*.su
+src/*.idb
+src/*.pdb
 
 # Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+src/*.mod*
+src/*.cmd
+src/.tmp_versions/
+src/modules.order
+src/Module.symvers
+src/Mkfile.old
+src/dkms.conf
